@@ -26,4 +26,8 @@
 }
 
 
+- (IBAction)URLLink:(id)sender {
+    [[UIApplication sharedApplication] openURL:[NSURL URLWithString:@"http://www.sberbank.ru"]];
+    
+}
 @end
